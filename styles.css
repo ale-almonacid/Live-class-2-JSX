@@ -147,7 +147,20 @@ body {
 .download-button.primary:active {
     background-color: #333;
 }
+/* Tertiary button style */
+.download-button.tertiary {
+    background-color: transparent;
+    border: 1px solid #cac9c6;
+    color: #333;
+}
 
+.download-button.tertiary:hover {
+    background-color: #e1dfda;
+}
+
+.download-button.tertiary:active {
+    background-color: #cac9c6;
+}
 /* Floating page label at top center */
 .page-label {
     position: fixed;
